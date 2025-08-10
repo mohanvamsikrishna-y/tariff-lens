@@ -1,16 +1,20 @@
 import tariffs from '../../../data/mock_tariffs.json';
 
 export default function handler(req, res) {
-  const { query } = req;
+  const { q, origin } = req.query;
   let results = tariffs;
 
-  if (query.q) {
-    const q = query.q.toLowerCase();
+  if (origin) {
+    const o = origin.toLowerCase();
+    results = results.filter(item => item.origin.toLowerCase().includes(o));
+  }
+
+  if (q) {
+    const search = q.toLowerCase();
     results = results.filter(item =>
-      item.hs_code.toLowerCase().includes(q) ||
-      item.origin.toLowerCase().includes(q) ||
-      item.destination.toLowerCase().includes(q) ||
-      item.description.toLowerCase().includes(q)
+      item.hs_code.toLowerCase().includes(search) ||
+      item.description.toLowerCase().includes(search) ||
+      item.origin.toLowerCase().includes(search)
     );
   }
 
