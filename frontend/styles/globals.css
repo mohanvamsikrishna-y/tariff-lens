@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply bg-[#f6f4ef] text-gray-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
