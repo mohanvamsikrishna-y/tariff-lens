@@ -7,7 +7,8 @@
     "base_duty": 2.5,
     "surcharge": 25.0,
     "last_updated": "2025-03-26",
-    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/"
+    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/",
+    "verified": true
   },
   {
     "hs_code": "8703",
@@ -17,7 +18,8 @@
     "base_duty": 2.5,
     "surcharge": 0.0,
     "last_updated": "2025-03-26",
-    "source": "https://rulings.cbp.gov/ruling/D88750"
+    "source": "https://rulings.cbp.gov/ruling/D88750",
+    "verified": true
   },
   {
     "hs_code": "8517.12",
@@ -27,7 +29,8 @@
     "base_duty": 0.0,
     "surcharge": 25.0,
     "last_updated": "2025-04-01",
-    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/"
+    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/",
+    "verified": true
   },
   {
     "hs_code": "8517.12",
@@ -37,7 +40,8 @@
     "base_duty": 0.0,
     "surcharge": 0.0,
     "last_updated": "2025-04-01",
-    "source": "https://rulings.cbp.gov/ruling/D88750"
+    "source": "https://rulings.cbp.gov/ruling/D88750",
+    "verified": true
   },
   {
     "hs_code": "7208",
@@ -47,7 +51,8 @@
     "base_duty": 0.0,
     "surcharge": 25.0,
     "last_updated": "2025-01-01",
-    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/"
+    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/",
+    "verified": true
   },
   {
     "hs_code": "7606",
@@ -57,7 +62,8 @@
     "base_duty": 0.0,
     "surcharge": 10.0,
     "last_updated": "2025-01-01",
-    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/"
+    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/",
+    "verified": true
   },
   {
     "hs_code": "6402",
@@ -67,7 +73,8 @@
     "base_duty": 10.0,
     "surcharge": 0.0,
     "last_updated": "2025-06-01",
-    "source": "https://rulings.cbp.gov/ruling/D88750"
+    "source": "https://rulings.cbp.gov/ruling/D88750",
+    "verified": true
   },
   {
     "hs_code": "6109",
@@ -77,7 +84,8 @@
     "base_duty": 16.5,
     "surcharge": 0.0,
     "last_updated": "2025-06-01",
-    "source": "https://rulings.cbp.gov/ruling/D88750"
+    "source": "https://rulings.cbp.gov/ruling/D88750",
+    "verified": true
   },
   {
     "hs_code": "4202",
@@ -87,7 +95,8 @@
     "base_duty": 8.0,
     "surcharge": 25.0,
     "last_updated": "2025-01-01",
-    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/"
+    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/",
+    "verified": true
   },
   {
     "hs_code": "9503",
@@ -97,6 +106,7 @@
     "base_duty": 0.0,
     "surcharge": 25.0,
     "last_updated": "2025-01-01",
-    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/"
+    "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/",
+    "verified": true
   }
 ]
