@@ -1,0 +1,202 @@
+[
+  {
+    "hs_code": "010121",
+    "description": "Live horses, purebred breeding",
+    "origin": "USA",
+    "destination": "India",
+    "base_duty": 25.0,
+    "mfn": 20.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "020110",
+    "description": "Beef, fresh or chilled",
+    "origin": "Brazil",
+    "destination": "India",
+    "base_duty": 30.0,
+    "mfn": 35.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "030211",
+    "description": "Fresh salmon",
+    "origin": "Norway",
+    "destination": "USA",
+    "base_duty": 10.0,
+    "mfn": 8.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "040221",
+    "description": "Milk powder",
+    "origin": "India",
+    "destination": "USA",
+    "base_duty": 15.0,
+    "mfn": 10.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "070320",
+    "description": "Garlic, fresh",
+    "origin": "China",
+    "destination": "USA",
+    "base_duty": 5.0,
+    "mfn": 7.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "100630",
+    "description": "Rice, semi-milled or wholly milled",
+    "origin": "India",
+    "destination": "China",
+    "base_duty": 40.0,
+    "mfn": 45.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "160414",
+    "description": "Prepared or preserved tuna",
+    "origin": "Japan",
+    "destination": "Canada",
+    "base_duty": 12.0,
+    "mfn": 10.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "220300",
+    "description": "Beer made from malt",
+    "origin": "Germany",
+    "destination": "Australia",
+    "base_duty": 20.0,
+    "mfn": 18.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "480261",
+    "description": "Uncoated paper and paperboard",
+    "origin": "USA",
+    "destination": "UK",
+    "base_duty": 4.0,
+    "mfn": 5.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "851712",
+    "description": "Mobile phones",
+    "origin": "China",
+    "destination": "India",
+    "base_duty": 15.0,
+    "mfn": 10.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "940350",
+    "description": "Bedroom furniture",
+    "origin": "Vietnam",
+    "destination": "USA",
+    "base_duty": 6.0,
+    "mfn": 5.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "870321",
+    "description": "Passenger motor vehicles",
+    "origin": "Japan",
+    "destination": "USA",
+    "base_duty": 2.5,
+    "mfn": 2.5,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "610910",
+    "description": "T-shirts, cotton",
+    "origin": "Bangladesh",
+    "destination": "USA",
+    "base_duty": 16.5,
+    "mfn": 15.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "640399",
+    "description": "Footwear, leather",
+    "origin": "Italy",
+    "destination": "USA",
+    "base_duty": 8.0,
+    "mfn": 6.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "210690",
+    "description": "Food preparations, not elsewhere specified",
+    "origin": "Singapore",
+    "destination": "UAE",
+    "base_duty": 5.0,
+    "mfn": 5.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "901839",
+    "description": "Needles, catheters and cannulas",
+    "origin": "Germany",
+    "destination": "India",
+    "base_duty": 0.0,
+    "mfn": 0.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "852990",
+    "description": "Parts for television receivers",
+    "origin": "South Korea",
+    "destination": "Mexico",
+    "base_duty": 14.0,
+    "mfn": 13.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "850440",
+    "description": "Power supplies and transformers",
+    "origin": "Malaysia",
+    "destination": "Canada",
+    "base_duty": 9.0,
+    "mfn": 8.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "200970",
+    "description": "Apple juice, unfermented",
+    "origin": "France",
+    "destination": "Japan",
+    "base_duty": 12.0,
+    "mfn": 10.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  },
+  {
+    "hs_code": "020712",
+    "description": "Chicken legs and cuts",
+    "origin": "USA",
+    "destination": "China",
+    "base_duty": 15.0,
+    "mfn": 12.0,
+    "last_updated": "2024-07-01",
+    "source": "MockData"
+  }
+]
