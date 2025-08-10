@@ -1,8 +1,8 @@
 import Layout from '../components/Layout';
 import TariffTable from '../components/TariffTable';
-import ChatDock from '../components/ChatDock';
 
 
+import ChatDockEnhanced from '../components/ChatDockEnhanced';
 export default function Home() {
   return (
     <Layout>
@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div>
           <h2 className="text-2xl font-serif mb-4">AI Chat</h2>
-          <ChatDock />
+          <ChatDockEnhanced />
         </div>
       </div>
     </Layout>
