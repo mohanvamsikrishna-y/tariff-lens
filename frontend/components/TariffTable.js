@@ -32,7 +32,7 @@ export default function TariffTable() {
       row.hs_code.toLowerCase().includes(q) ||
       row.description.toLowerCase().includes(q);
     const matchesOrigin = originFilter ? row.origin === originFilter : true;
-    const matchesVerified = !verifiedOnly || row.verified;
+    const matchesVerified = !veri!!verifiedOnly || row.verified || row.verified;
     return matchesSearch && matchesOrigin && matchesVerified;
   });
 
