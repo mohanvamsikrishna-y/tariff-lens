@@ -1,12 +1,13 @@
 import tariffs from '../../../data/mock_tariffs.json';
 
 export default function handler(req, res) {
-  const { origin, from, hs, hs_code, value, item_value } = req.query;
+  const { origin, from, hs_code, value, item_value } = req.query;
+  // Normalize input: accept origin from 'origin' or 'from', hs code from 'hs_code'
   const orig = (origin || from || '').toLowerCase();
-  const hsCode = (hs || hs_code || '').toLowerCase();
+  const hsCode = (hs_code || '').toLowerCase();
   const val = parseFloat(value || item_value || 0);
 
-  // find matching tariff entry for the given origin and HS code
+  // Find matching item for the given origin and HS code
   const item = tariffs.find(t =>
     t.origin.toLowerCase() === orig &&
     t.hs_code.toLowerCase() === hsCode
@@ -23,7 +24,7 @@ export default function handler(req, res) {
   res.status(200).json({
     origin: orig,
     destination: 'USA',
-    hs: hsCode,
+    hsCode,
     value: val,
     baseRate,
     surchargeRate,
