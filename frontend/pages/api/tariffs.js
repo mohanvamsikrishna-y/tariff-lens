@@ -1,6 +1,5 @@
 import tariffs from '../../../data/mock_tariffs.json';
 
-import tariffs from '../../../data/mock_tariffs.json';
 export default function handler(req, res) {
   const { q, origin, verified } = req.query;
   let results = tariffs;
