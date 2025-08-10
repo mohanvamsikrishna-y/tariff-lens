@@ -1,30 +1,34 @@
-import tariffs from '../../../../../data/mock_tariffs.json';
+import tariffs from '../../../data/mock_tariffs.json';
 
 export default function handler(req, res) {
-  const { query } = req;
-  const origin = (query.origin || query.from || '').toLowerCase();
-  const destination = (query.destination || query.to || '').toLowerCase();
-  const hs = (query.hs || query.hs_code || '').toLowerCase();
-  const value = parseFloat(query.value || query.item_value || 0);
+  const { origin, from, hs, hs_code, value, item_value } = req.query;
+  const orig = (origin || from || '').toLowerCase();
+  const hsCode = (hs || hs_code || '').toLowerCase();
+  const val = parseFloat(value || item_value || 0);
 
+  // find matching tariff entry for the given origin and HS code
   const item = tariffs.find(t =>
-    t.origin.toLowerCase() === origin &&
-    t.destination.toLowerCase() === destination &&
-    t.hs_code.toLowerCase() === hs
+    t.origin.toLowerCase() === orig &&
+    t.hs_code.toLowerCase() === hsCode
   ) || {};
 
-  const dutyPercent = item.base_duty || 0;
-  const duty = value * dutyPercent / 100;
+  const baseRate = item.base_duty || 0;
+  const surchargeRate = item.surcharge || 0;
+  const duty = val * baseRate / 100;
+  const surcharge = val * surchargeRate / 100;
   const vat = 0;
   const other = 0;
-  const total = value + duty + vat + other;
+  const total = val + duty + surcharge + vat + other;
 
   res.status(200).json({
-    origin,
-    destination,
-    hs,
-    value,
+    origin: orig,
+    destination: 'USA',
+    hs: hsCode,
+    value: val,
+    baseRate,
+    surchargeRate,
     duty,
+    surcharge,
     vat,
     other,
     total,
