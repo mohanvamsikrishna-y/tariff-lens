@@ -1,0 +1,96 @@
+[
+  {
+    "iso2": "CN",
+    "country": "China",
+    "status": "new_rate",
+    "headline_rate": 25.0,
+    "direction": "up",
+    "scope": ["EVs", "batteries", "critical minerals"],
+    "effective_from": "2025-06-01",
+    "deadline": null,
+    "updated_at": "2025-08-10T10:00:00Z",
+    "sources": [
+      {
+        "url": "https://example.com/federal_register_china_ev",
+        "type": "federal_register",
+        "snippet": "Section 301 tariff increase on electric vehicles from China."
+      }
+    ],
+    "summary": "U.S. raises EV tariff on China to 25% effective Jun 1.",
+    "region": "AP"
+  },
+  {
+    "iso2": "VN",
+    "country": "Vietnam",
+    "status": "upcoming_deadline",
+    "headline_rate": 10.0,
+    "direction": "up",
+    "scope": ["solar panels"],
+    "effective_from": "2025-09-01",
+    "deadline": "2025-08-30",
+    "updated_at": "2025-08-09T09:00:00Z",
+    "sources": [
+      {
+        "url": "https://example.com/ustr_vietnam_solar",
+        "type": "ustr",
+        "snippet": "Upcoming solar panel tariffs on Vietnam effective September 1."
+      }
+    ],
+    "summary": "U.S. announces 10% tariff on solar panels from Vietnam effective Sep 1; deadline Aug 30.",
+    "region": "AP"
+  },
+  {
+    "iso2": "CA",
+    "country": "Canada",
+    "status": "deal_rate",
+    "headline_rate": null,
+    "direction": "same",
+    "scope": ["steel", "aluminum"],
+    "effective_from": "2023-01-01",
+    "deadline": null,
+    "updated_at": "2025-08-08T08:00:00Z",
+    "sources": [
+      {
+        "url": "https://example.com/us-canada-steel-deal",
+        "type": "federal_register",
+        "snippet": "Quota-based deal on steel and aluminum from Canada."
+      }
+    ],
+    "summary": "U.S. maintains quota-based deal on Canadian steel and aluminum.",
+    "region": "AM"
+  },
+  {
+    "iso2": "EU",
+    "country": "European Union",
+    "status": "deal_rate",
+    "headline_rate": null,
+    "direction": "same",
+    "scope": ["steel"],
+    "effective_from": "2021-01-01",
+    "deadline": null,
+    "updated_at": "2025-08-07T07:00:00Z",
+    "sources": [
+      {
+        "url": "https://example.com/us-eu-steel-deal",
+        "type": "federal_register",
+        "snippet": "Deal on steel tariffs with EU."
+      }
+    ],
+    "summary": "Quota deal on EU steel remains in place.",
+    "region": "EU"
+  },
+  {
+    "iso2": "IN",
+    "country": "India",
+    "status": "baseline",
+    "headline_rate": null,
+    "direction": "same",
+    "scope": ["all goods"],
+    "effective_from": null,
+    "deadline": null,
+    "updated_at": "2025-08-06T06:00:00Z",
+    "sources": [],
+    "summary": "No special tariffs; baseline MFN rates apply.",
+    "region": "AP"
+  }
+]
