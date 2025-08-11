@@ -27,12 +27,17 @@ export default function TariffTable() {
   const origins = Array.from(new Set(data.map((row) => row.origin))).sort();
 
   let filtered = data.filter((row) => {
-    const q = debouncedQuery.toLowerCase();
+    const q = (debouncedQuery || "").toLowerCase();
+  
     const matchesSearch =
-      row.hs_code.toLowerCase().includes(q) ||
-      row.description.toLowerCase().includes(q);
+      (row.hs_code || "").toLowerCase().includes(q) ||
+      (row.description || "").toLowerCase().includes(q);
+  
     const matchesOrigin = originFilter ? row.origin === originFilter : true;
-    const matchesVerified = !veri!!verifiedOnly || row.verified || row.verified;
+  
+    // FIX: was `!veri!!verifiedOnly ...` (syntax error)
+    const matchesVerified = !verifiedOnly || row.verified === true;
+  
     return matchesSearch && matchesOrigin && matchesVerified;
   });
 
